@@ -1,0 +1,90 @@
+*{
+
+    box-sizing: 0; margin: 0; padding: 0; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body{
+
+
+    background-color: rgb(255, 255, 255);
+}
+.sitefan{
+max-width: 680px;
+}
+
+input{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(123, 123, 123);
+    margin-bottom: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 600px) {
+    input {
+         width: 90%;
+       }
+   
+   }
+
+
+  /* Estilos para pantallas pequeñas (por ejemplo, celulares) */
+  
+
+
+
+
+
+img{
+    width: 300px;
+    margin-top: 120px;
+}
+
+     /* Estilos para pantallas pequeñas (por ejemplo, celulares) */
+     @media screen and (max-width: 600px) {
+     img {
+          width: 150px;
+        }
+    
+    }
+.voygo{
+
+    background-color: rgb(14, 151, 1);color: white;
+    font-size: 14pt; border: none;
+    border-radius: 30px;
+}
+
+
+input::placeholder{ color: black; }
+
+
+
+input {
+ 
+    border-bottom: 3px solid gray; /* Agregamos un borde inferior gris */
+    
+   
+  outline: none; /* Eliminamos el contorno de enfoque predeterminado */
+    
+   
+  transition: border-color 0.3s; /* Agregamos una transición suave para el cambio de color */
+  }
+  
+   input:focus {
+    border-color: rgb(0, 162, 46); /* Cambiamos el color del borde inferior al estar enfocado */
+  }
+  En este ejemplo#miCampoinicialmente tiene un borde inferior gristransitionagrega una
+  
+  Pued
+  
+  Este es solo un ejemplo básico para log
+  
+
+
+  
+  
+  
+  
+  

